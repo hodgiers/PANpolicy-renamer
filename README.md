@@ -8,7 +8,7 @@ The .env file should contain:
 	FW_HOST=<HOSTNAME OR IP ADDRESS OF PANORAMA>
 
 Build the dockerfile by running: 
-docker build -t <The name you'd like to apply to the docker container> .
+docker build -t <The name youd like to apply to the docker container> 
 	Example:
 	docker build -t policyrenamer .
 Once it's done building run:
