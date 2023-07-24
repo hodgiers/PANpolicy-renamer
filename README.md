@@ -5,20 +5,15 @@ Ingests PAN config via api call and renames the policies according to requiremen
 ```
 It should be created within the directory this repo was cloned into.
 The .env file should contain:
-<<<<<<< HEAD
+
 	```
 	'PAN_API_KEY=<YOUR PAN API KEY>'
 	'DEVICE_GROUP=<THE DG THAT THE POLCIES NEED TO BE RANAMED ON>'
 	'FW_HOST=<HOSTNAME OR IP ADDRESS OF PANORAMA>'
 	```
-=======
-
-	PAN_API_KEY=<YOUR PAN API KEY>
-	DEVICE_GROUP=<THE DG THAT THE POLICIES NEED TO BE RENAMED ON>
-	FW_HOST=<HOSTNAME OR IP ADDRESS OF PANORAMA>
 
 ```
-## Build the dockerfile by running: 
+# Build the dockerfile by running: 
 ```
 docker build -t <The name youd like to apply to the docker container> .
 	Example:
