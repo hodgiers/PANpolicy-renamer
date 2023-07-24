@@ -18,8 +18,6 @@ The .env file should contain:
 	FW_HOST=<HOSTNAME OR IP ADDRESS OF PANORAMA>
 
 ```
->>>>>>> a72db7edeb99295ab006d170df7edda3f7da5250
-
 ## Build the dockerfile by running: 
 ```
 docker build -t <The name youd like to apply to the docker container> .
